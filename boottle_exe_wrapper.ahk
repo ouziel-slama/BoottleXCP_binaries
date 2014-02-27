@@ -1,3 +1,5 @@
+;;  ahk_basic flexible PE wrapper for BoottleXCP - by flatfly
+
 #notrayicon
 #singleinstance force
 settitlematchmode, 2
