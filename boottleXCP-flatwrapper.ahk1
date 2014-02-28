@@ -9,7 +9,7 @@ wTitle = Counterparty Wallet Manager
 
 ReleaseDir = %appdata%\Boottle000\%Rel%
 
-EnvSet, path, %path%;%ReleaseDir%\`%System`%;%ReleaseDir%\Python33
+EnvSet, path, %path%;%ReleaseDir%\Python33
 
 ifWinExist, %wTitle%
  {
