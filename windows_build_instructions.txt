@@ -1,0 +1,11 @@
+How to make the BoottleXCP executable package for Windows
+
+A/ Requirements
+    1/ 7-Zip 9.20.0.0
+    2/ AutoHotkey Basic interpreter  1.0.48.5
+    3/ AutoHotkey Basic compiler     1.0.48.5
+
+B/ Edit the AHK1 wrapper script as follows
+    
+   
+(Work in progress)
