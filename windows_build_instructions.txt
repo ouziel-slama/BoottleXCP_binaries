@@ -11,25 +11,31 @@ There are 2 ways to do it.
 A/ Starting from scratch
 
 	 a/ Requirements
-	 	0/ Windows XP or later
+	 	0/ Windows XP or later - A 32-bit Windows XP VM is recommended, to make builds that are both
+	 	   32-bit and 64-bit compatible.
+	 	   
 		1/ 7-Zip 9.20.0.0
 		   http://downloads.sourceforge.net/sevenzip/
+
 		2/ AutoHotkey Basic interpreter  1.0.48.5
 		   http://ahkscript.org/download/
+
 		3/ AutoHotkey Basic compiler     1.0.48.5
 		   http://ahkscript.org/download/
-		4/ BoottleXCP source
 
-	 b/ Install BoottleXCP from source as described in this post:
-	    http://www.reddit.com/r/xcp/comments/1zzhyg/how_to_install_counterparty_windows_gui_wallet_by/
+		4/ BoottleXCP (+ dependencies) source: extract it into a directory of your choice, which is 
+		   referred to as "%BoottleXCP_Path%" in the rest of these instructions
+	           Also see http://www.reddit.com/r/xcp/comments/1zzhyg/how_to_install_counterparty_windows_gui_wallet_by/
 	    
-	 c/ Make the setup.arc file by running the following command:
+
+	 b/ Make the setup.arc file by running the following command:
 	    start /wait 7za.exe a "setup.arc" "%BoottleXCP_Path%" -r -sfx, d:\deliverables
 	    
-	 d/ Edit the AHK1 wrapper script as follows:
+
+	 c/ Compile the AHK1 wrapper script using the AutoHotkey Basic compiler
    
 
 B/ Starting from a previous installation.
 
   
-(Work in progress)
+(Work in progress... I'm also by reachable by PM on forums.counterparty.co to help with making your own build)
