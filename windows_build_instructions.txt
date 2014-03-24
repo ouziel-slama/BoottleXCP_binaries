@@ -1,12 +1,19 @@
-How to make the BoottleXCP executable package for Windows
+How to make the BoottleXCP executable package for Windows  (by flatfly)
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
 
-Currently the BoottleXCP build process for Windows is as follows.
+This build process has been designed with the following objectives in mind:
+
+- 100% open-source toolchain 
+- same build runs on 32-bit and 64-bit architectures
+- steps are easy to replicate on a vanilla Windows machine
+- no administrative credentials required
+
+
 (The plan is to move to a fully automated process later on.)
 
 
-There are 2 ways to do it:  Starting from scratch or starting from a previous build.
+There are 2 ways to build BoottleXCP:  Starting from scratch or starting from a previous build.
 
 
 Method 1: Starting from scratch
@@ -25,7 +32,7 @@ Method 1: Starting from scratch
 		3/ Install AutoHotkey Basic compiler     1.0.48.5
 		   http://ahkscript.org/download/
 
-		4/ BoottleXCP (+ dependencies): extract into a directory of your choice, which is 
+		4/ BoottleXCP (+ counterpartyd + dependencies): extract into a directory of your choice, which is 
 		   referred to as "%BoottleXCP_Path%" in the rest of these instructions
 	           Also see http://www.reddit.com/r/xcp/comments/1zzhyg/how_to_install_counterparty_windows_gui_wallet_by/
 	    
